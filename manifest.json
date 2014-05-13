@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "Smart QQ",
+    "description": "This extension loads smart qq.",
+    "version": "1.0",
+
+    "permissions": [
+        "webview"
+    ],
+    "app": {
+        "background": {
+            "scripts": ["js/background.js"]
+        }
+    }
+}
